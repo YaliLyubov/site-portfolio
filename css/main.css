@@ -36,6 +36,10 @@ body{
     color: #292929;
     font-size: 20px;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+.menu-list  li a:hover{
+    color: #01996D;
 }
 .btns-top {
     display: flex;
@@ -170,8 +174,50 @@ body{
 .card_img img{
     width: 100%;
 }
-
-
+/* story */
+.story {
+    padding-top: 225px;
+    padding-bottom: 175px;
+    background-color: #245852;
+}
+.story_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.story_text {
+    width: 50%;
+}
+.story_title {
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.story_desc {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+.green-btn {
+    background-color: #01996D;
+    color: #fff;
+    width: 227px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+}
+.story_img {
+    width: 50%;
+}
+.sstory_video {
+}
 
 
 
